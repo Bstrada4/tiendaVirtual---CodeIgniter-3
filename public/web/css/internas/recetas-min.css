@@ -1,0 +1,142 @@
+/***************************** SECTION TITLE INTERNA **************************/
+.sect_title_interna{
+	background-image: url(../../../../public/img/fondo/receta-title-interna.jpg);
+	background-position: center 80%;
+	background-size: cover;
+	padding: 100px 0;
+	position: relative;
+}
+.sect_title_interna:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #61271d;
+	opacity: .5;
+}
+/**/
+@media(max-width: 991px){
+    .sect_title_interna {
+        padding: 60px 0;
+        padding-bottom: 80px;
+    }
+}
+@media(max-width: 767px){
+    .sect_title_interna.sect_title_general h2 {
+        font-size: 30px;
+    }
+    .sect_title_interna {
+        padding: 40px 0;
+        padding-bottom: 70px;
+    }
+}
+/***************************** END SECTION TITLE INTERNA **************************/
+
+/********************************* ESTILOS MIXITUP ********************************/
+.control {
+    color: #61271d !important;
+    padding: 6px;
+    background: #ffffff;
+    border: 2px solid #61271d;
+}
+.control:hover{
+    color: #f4811f !important;
+}
+.mixitup-control-active {
+    border: 2px solid #f4811f;
+    color: #ffffff !important;
+    background: #f4811f;
+}
+.mixitup-control-active:hover{
+    background: #f4811f;
+    color: #ffffff !important;
+    border: 2px solid #f4811f;
+}
+/******************************** SECTION RECETAS *********************************/
+.sect_recetas{
+	padding: 50px 0;
+	padding-bottom: 100px;
+}
+/**/
+.box_item_receta>a{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+}
+.box_item_receta>a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9));
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9));
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+}
+/**/
+.box_item_receta img{
+	border-radius: 20px;
+	-webkit-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+.box_item_receta:hover img{
+	border-radius: 20px;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+
+/**/
+.box_item_receta .caption_item_receta{
+	    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+    z-index: 2;
+}
+.box_item_receta .caption_item_receta h5 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+}
+.box_item_receta .caption_item_receta p {
+    color: #ffffff;
+    text-align: center;
+}
+.box_item_receta .caption_item_receta a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f4811f;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box_item_receta .caption_item_receta a:hover{
+    background: #8ec038;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+/****************************** END SECTION RECETAS *******************************/

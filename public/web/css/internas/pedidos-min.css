@@ -1,0 +1,411 @@
+/***************************** SECTION TITLE INTERNA **************************/
+
+.sect_title_interna{
+
+	background-image: url(../../../../public/img/fondo/pedidos-title-interna.jpg);
+
+	background-position: bottom;
+
+	background-size: cover;
+
+	padding: 100px 0;
+
+	position: relative;
+
+}
+
+.sect_title_interna:before{
+
+	content: "";
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+	background: #61271d;
+
+	opacity: .5;
+
+}
+
+/**/
+
+@media(max-width: 991px){
+
+    .sect_title_interna {
+
+        padding: 60px 0;
+
+        padding-bottom: 80px;
+
+    }
+
+}
+
+@media(max-width: 767px){
+
+    .sect_title_interna.sect_title_general h2 {
+
+        font-size: 30px;
+
+    }
+
+    .sect_title_interna {
+
+        padding: 40px 0;
+
+        padding-bottom: 70px;
+
+    }
+
+}
+
+/***************************** END SECTION TITLE INTERNA **************************/
+
+
+
+/****************************** SECTION PEDIDOS ***********************************/
+
+.sect_pedidos{
+
+	padding-top: 100px;
+
+    padding-bottom: 100px;
+
+}
+
+/**/
+
+.aviso_pedido h2{
+
+	font-weight: 800;
+
+    color: #f4811f;
+
+}
+
+.p_pedidos_message{
+
+	font-size: 20px;
+
+	color: #9f9f9f;
+
+}
+
+/**/
+
+.box_pedidos{
+
+    background: #f4811f;
+
+    padding: 50px;
+
+}
+
+.box_pedidos .box_body form{
+
+	display: -webkit-flex;
+
+	display: -moz-flex;
+
+	display: -ms-flex;
+
+	display: -o-flex;
+
+	display: flex;
+
+	flex-flow: row wrap;
+
+}
+
+.box_pedidos .box_body h4{
+
+	color: #57231a;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+}
+
+.box_pedidos .box_body input.input_ingresa{
+
+	width: calc(100% - 200px);
+
+	border: 0;
+
+	padding: 20px;
+
+}
+
+.box_pedidos .box_body input.input_ingresa:focus{
+
+	border: 0;
+
+	outline: none;
+
+}
+
+.box_pedidos .box_body input.input_buscar{
+
+	width: 200px;
+
+    background: #61271d;
+
+    color: #fff;
+
+    border: 0;
+
+    cursor: pointer;
+
+    -webkit-transition: all ease 500ms;
+
+    -o-transition: all ease 500ms;
+
+    transition: all ease 500ms;
+
+}
+
+.box_pedidos .box_body input.input_buscar:hover{
+
+    background: #8ec038;
+
+    -webkit-transition: all ease 500ms;
+
+    -o-transition: all ease 500ms;
+
+    transition: all ease 500ms;
+
+}
+
+.box_pedidos .box_body input.input_buscar:focus{
+
+	border: 0;
+
+	outline: none;
+
+}
+
+
+
+/**/
+
+@media(max-width: 991px){
+
+	.sect_pedidos {
+
+	    padding-top: 50px;
+
+	    padding-bottom: 100px;
+
+	}
+
+	.aviso_pedido h2 {
+
+	    font-size: 25px;
+
+	}
+
+	.p_pedidos_message {
+
+	    font-size: 17px;
+
+	    margin-bottom: 25px;
+
+	}
+
+	.box_pedidos {
+
+	    background: #f4811f;
+
+	    padding: 35px;
+
+	}
+
+}
+@media(max-width: 600px){
+	.box_pedidos .box_body input.input_ingresa {
+	    width: calc(100%);
+	}
+	.box_pedidos .box_body input.input_buscar {
+		width: 100%;
+	    padding: 20px;
+	    margin-top: 20px;
+	}
+}
+
+
+/********************************** SECTION CARRITO ******************************/
+
+.sect_carrito{
+
+	padding: 150px 0;
+
+	padding-top: 0;
+
+}
+
+/**/
+
+.content_table_pedidos>table>thead th{
+
+    padding: 15px;
+
+    background: #61271d;
+
+    text-align: center;
+
+    color: #fff;
+
+    border: 1px solid #fff;
+
+}
+
+.content_table_pedidos>table>tbody td{
+
+        padding: 15px;
+
+    text-align: center;
+
+    background: #f1f1f1;
+
+    border: 1px solid #fff;
+
+}
+
+/**/
+
+.name_product{
+
+	margin-top: 10px;
+
+}
+
+.input_cant{
+
+	display: block;
+
+    width: 50px;
+
+    margin: 0 auto;
+
+    box-shadow: 0px 0px 5px #ccc;
+
+    border: 0;
+
+}
+
+.input_cant:focus{
+
+	outline: none;
+
+}
+
+/*SUBTOTALES*/
+
+.box_subtotales {
+
+	width: 100%;
+
+	max-width: 400px;
+
+	margin-left: auto;
+
+	margin-top: 30px;
+
+	box-shadow: 0 2px 4px 0 rgba(170,170,170,.5);
+
+	padding: 20px;
+
+}
+
+.box_subtotales .info{
+
+	display: -webkit-flex;
+
+	display: -moz-flex;
+
+	display: -ms-flex;
+
+	display: -o-flex;
+
+	display: flex;
+
+	flex-flow: row wrap;
+
+}
+
+.box_subtotales .info span{
+
+	width: 50%;
+
+    margin-bottom: 10px;
+
+    padding: 10px;
+
+    border-bottom: 1px solid #d6d6d6;
+
+}
+
+.box_subtotales .info span.title{
+
+	font-weight: 600;
+
+}
+
+.box_subtotales .info span.monto{
+
+	text-align: right;
+
+}
+
+/**/
+
+.btn_carrito a{
+
+	display: block;
+
+    padding: 20px;
+
+    background: #f4811f;
+
+    color: #fff;
+
+    font-weight: 700;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+	-webkit-transition: all ease 500ms;
+
+	-o-transition: all ease 500ms;
+
+	transition: all ease 500ms;
+
+}
+
+.btn_carrito a:hover{
+
+	background: #8ec038;
+
+	-webkit-transition: all ease 500ms;
+
+	-o-transition: all ease 500ms;
+
+	transition: all ease 500ms;
+
+}
+
+/**/
+

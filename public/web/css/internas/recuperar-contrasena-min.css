@@ -1,0 +1,75 @@
+/***************************** SECTION TITLE INTERNA **************************/
+.sect_title_interna{
+    background-image: url(../../../../public/img/fondo/nosotros-title-interna.jpg);
+    background-position: center 90%;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+.sect_title_interna:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #61271d;
+    opacity: .5;
+}
+/***************************** END SECTION TITLE INTERNA **************************/
+
+/**/
+.sect_recuperar{
+    padding: 100px 0;
+    padding-bottom: 150px;
+}
+.p_info{
+    text-align: center;
+    color: #848484;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+/**/
+.form_recupera{
+    padding: 30px;
+    background: #f4811f;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex_inputs{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex_inputs .input_login{
+    width: calc(100% - 150px);
+    border: 0;
+    padding: 20px;
+}
+.flex_inputs .input_login:focus{
+    outline: none;
+}
+.input_recupera_submit{
+    width: 150px;
+    background: #61271d;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.input_recupera_submit:hover{
+    background: #8ec038;
+    color: #fff;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}

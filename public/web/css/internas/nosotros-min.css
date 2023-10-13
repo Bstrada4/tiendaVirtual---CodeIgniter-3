@@ -1,0 +1,298 @@
+/***************************** SECTION TITLE INTERNA **************************/
+.sect_title_interna{
+	background-image: url(../../../../public/img/fondo/nosotros-title-interna.jpg);
+	background-position: center 90%;
+	background-size: cover;
+	padding: 100px 0;
+	position: relative;
+}
+.sect_title_interna:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #61271d;
+	opacity: .5;
+}
+/**/
+@media(max-width: 991px){
+    .sect_title_interna {
+        padding: 60px 0;
+        padding-bottom: 80px;
+    }
+}
+@media(max-width: 767px){
+    .sect_title_interna.sect_title_general h2 {
+        font-size: 30px;
+    }
+    .sect_title_interna {
+        padding: 40px 0;
+        padding-bottom: 70px;
+    }
+}
+/***************************** END SECTION TITLE INTERNA **************************/
+
+/******************************* SECTION NOSOTROS *********************************/
+.sect_nosotros {
+	padding: 50px 0;
+	padding-bottom: 0;
+}
+.box_nosotros .box_head h4{
+	color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+.box_nosotros .box_head h4 img{
+	vertical-align: bottom;
+}
+.box_nosotros .box_head h6{
+	color: #9f9f9f;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hr_separate{
+	width: 50px;
+	border-top: 5px solid #000;
+	margin-left: 0;
+}
+/**/
+.box_nosotros .box_body{
+	margin: 20px 0;
+}
+.box_nosotros .box_body p{
+	color: #9f9f9f;
+    font-size: 17px;
+    font-weight: 300;
+}
+/**/
+.box_nosotros .box_foot ul{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+.box_nosotros .box_foot ul>li{
+	margin-bottom: 40px;
+	position: relative;
+}
+.box_nosotros .box_foot ul>li .content_carac{
+	padding-left: 70px;
+}
+.box_nosotros .box_foot ul>li .content_carac h6{
+	font-size: 20px;
+	font-weight: 700;
+}
+.box_nosotros .box_foot ul>li .content_carac span{
+	color: #9f9f9f;
+}
+.box_nosotros .box_foot ul>li>svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 50px;
+    color: #f4811f;
+    width: 60px;
+    margin-right: 15px;
+}
+.box_nosotros .box_foot ul>li>svg .fa-primary{
+	color: #61271d;
+}
+/**/
+@media(max-width: 1599px){
+	.box_nosotros .box_foot ul>li {
+	    margin-bottom: 20px;
+	}
+	.box_nosotros .box_foot ul>li>svg {
+	    font-size: 25px;
+	}
+	.box_nosotros .box_foot ul>li .content_carac h6 {
+	    font-size: 15px;
+	}
+	.box_nosotros .box_foot ul>li .content_carac span {
+	    font-size: 13px;
+	}
+	.box_nosotros .box_body{
+		margin: 0;
+	}
+	.box_nosotros .box_head h6 {
+	    margin-bottom: 0;
+	}
+}
+@media(max-width: 1199px){
+	.box_nosotros .box_foot ul>li {
+	    margin-bottom: 11px;
+	}
+	.box_nosotros .box_foot ul>li .content_carac h6 {
+	    margin-bottom: 0;
+	}
+	.box_nosotros .box_foot ul>li .content_carac span {
+	    font-size: 13px;
+	}
+	.box_nosotros .box_body p {
+	    font-size: 14px;
+	}
+	.box_nosotros .box_foot ul {
+	    margin-top: 18px;
+	}
+}
+@media(max-width: 991px){
+	.sect_nosotros {
+	    padding-top: 20px;
+	}
+	.box_nosotros .box_foot ul>li {
+	    margin-bottom: 20px;
+	}
+}
+@media(max-width: 600px){
+	.box_nosotros .box_head h4 {
+	    font-size: 20px;
+	}
+	.box_nosotros .box_head h4 img {
+	    width: 100px;
+	}
+}
+/******************************* END SECTION NOSOTROS ******************************/
+
+/********************************** SECTION BANNER *********************************/
+.sect_banner_nosotros{
+	background-image: url(../../../../public/img/fondo/fondo-nutricion.png);
+    background-color: #f4811f;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+	padding: 100px 0;
+	position: relative;
+}
+/*.sect_banner_nosotros:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f4811f;
+	opacity: .5;
+}*/
+/**/
+.sect_banner_nosotros h2{
+	color: #fff;
+	font-weight: 800;
+	font-size: 45px;
+}
+.sect_banner_nosotros a.btn_delivery{
+	display: block;
+	color: #fff;
+	font-weight: 800;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	border-radius: 40px;
+	background: #61271d;
+	text-decoration: none;
+	-webkit-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+.sect_banner_nosotros a.btn_delivery:hover{
+	background: #fff;
+	color: #61271d;
+	-webkit-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+/**/
+@media(max-width: 1599px){
+	.sect_banner_nosotros h2 {
+	    font-size: 40px;
+	}
+	.sect_banner_nosotros a.btn_delivery {
+	    padding: 15px;
+	    font-size: 25px;
+	}
+}
+@media(max-width: 1199px){
+	.sect_banner_nosotros h2 {
+	    font-size: 30px;
+	}
+	.sect_banner_nosotros a.btn_delivery {
+	    padding: 10px;
+	    font-size: 20px;
+	}
+	.sect_banner_nosotros {
+	    padding: 70px 0;
+	}
+}
+/******************************** END SECTION BANNER *******************************/
+
+/******************************* SECTION MISION - VISION ***************************/
+.sect_mision_vision{
+	padding: 60px 0;
+    padding-bottom: 150px;
+}
+.box_mision{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	padding: 100px 30px;
+    border: 1px dashed #cacaca;
+    position: relative;
+    height: 100%;
+}
+.box_mision .box_head h6{
+	color: #f4811f;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.box_mision .box_body p{
+	color: #9f9f9f;
+	text-align: center;
+}
+.box_mision .box_foot img{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 130px;
+    margin: 0 auto;
+    transform: translate(0px, 50%);
+}
+/**/
+@media(max-width: 991px){
+	.box_mision {
+	    height: auto;
+	    margin-bottom: 70px;
+	}
+	.sect_mision_vision {
+	    padding-bottom: 100px;
+	}
+	.sect_banner_nosotros a.btn_delivery {
+	    width: 230px;
+    	margin: 0 auto;
+    	margin-top: 20px;
+	}
+	.sect_banner_nosotros h2 {
+	    text-align: center;
+	}
+}
+@media(max-width: 767px){
+	.sect_banner_nosotros h2 {
+	    font-size: 23px;
+	}
+	.sect_banner_nosotros {
+	    padding: 50px 0;
+	}
+	.sect_banner_nosotros a.btn_delivery {
+		width: 200px;
+	    font-size: 16px;
+	}
+}
+/***************************** END SECTION MISION - VISION *************************/

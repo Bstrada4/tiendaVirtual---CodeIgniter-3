@@ -1,0 +1,81 @@
+/***************************** SECTION TITLE INTERNA **************************/
+.sect_title_interna{
+	background-image: url(../../../../public/img/fondo/puntos-venta-title-interna.jpg);
+	background-position: center 65%;
+	background-size: cover;
+	padding: 100px 0;
+	position: relative;
+}
+.sect_title_interna:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #61271d;
+	opacity: .5;
+}
+/**/
+@media(max-width: 991px){
+    .sect_title_interna {
+        padding: 60px 0;
+        padding-bottom: 80px;
+    }
+}
+@media(max-width: 767px){
+    .sect_title_interna.sect_title_general h2 {
+        font-size: 30px;
+    }
+    .sect_title_interna {
+        padding: 40px 0;
+        padding-bottom: 70px;
+    }
+}
+/***************************** END SECTION TITLE INTERNA **************************/
+
+/*************************** SECTION PUNTO DE VENTAS ******************************/
+.sect_puntos_venta{
+	padding-top: 50px;
+}
+.list_direcciones{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+.list_direcciones>li{
+	width: auto;
+    cursor: pointer;
+    margin: 0 20px;
+    border: 2px solid #f4811f;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #f4811f;
+    font-weight: 800;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.list_direcciones>li:hover{
+	background: #f4811f;
+	color: #fff;
+	-webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.list_direcciones>li.activo{
+	background: #f4811f;
+	color: #fff;
+	-webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}

@@ -1,0 +1,331 @@
+/***************************** SECTION TITLE INTERNA **************************/
+
+.sect_title_interna{
+
+	background-image: url(../../../../public/img/fondo/receta-title-interna.jpg);
+
+	background-position: center 80%;
+
+	background-size: cover;
+
+	padding: 100px 0;
+
+	position: relative;
+
+}
+
+.sect_title_interna:before{
+
+	content: "";
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+	background: #61271d;
+
+	opacity: .5;
+
+}
+
+/**/
+
+@media(max-width: 991px){
+
+    .sect_title_interna {
+
+        padding: 60px 0;
+
+        padding-bottom: 80px;
+
+    }
+
+}
+
+@media(max-width: 767px){
+
+    .sect_title_interna.sect_title_general h2 {
+
+        font-size: 30px;
+
+    }
+
+    .sect_title_interna {
+
+        padding: 40px 0;
+
+        padding-bottom: 70px;
+
+    }
+
+}
+
+/***************************** END SECTION TITLE INTERNA **************************/
+
+
+
+/***************************** SECTION RECETA DESCRIPCION **********************************/
+
+.sect_mitos_descripcion{
+
+	padding: 50px 0;
+
+	padding-bottom: 100px;
+
+}
+
+/**/
+
+.box_lateral_mitos #accordion{
+
+	list-style: none;
+
+	padding-left: 0;
+
+	margin-bottom: 0;
+
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.2);
+
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.2);
+
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+
+    border-top-left-radius: 20px;
+
+    border-top-right-radius: 20px;
+
+}
+
+.box_lateral_mitos #accordion>li>a{
+
+	display: block;
+
+    padding: 20px;
+
+    background: #61271d;
+
+    color: #f4811f;
+
+    font-weight: 800;
+
+    font-size: 18px;
+
+    border-top-left-radius: 20px;
+
+    border-top-right-radius: 20px;
+
+	text-decoration: none;
+
+}
+
+.box_lateral_mitos #accordion>li>a svg{
+
+	float: right;
+
+	font-size: 30px;
+
+}
+
+/**/
+
+.box_contenido_mitos .box_head{
+
+	position: relative;
+
+}
+
+.box_contenido_mitos .box_head:before {
+
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    z-index: 1;
+
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7));
+
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7));
+
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7));
+
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7));
+
+}
+.box_contenido_mitos .box_head .caption_mito{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 30px;
+	z-index: 1;
+}
+.box_contenido_mitos .box_head .caption_mito h3{
+	color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.box_contenido_mitos .box_head .caption_mito p{
+
+	color: #fff;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    text-align: justify;
+
+}
+
+/**/
+
+#accordion .submenu{
+
+	list-style: none;
+
+	padding-left: 0;
+
+	margin-bottom: 0;
+
+	padding: 20px;
+
+}
+
+#accordion .submenu>li{
+
+	position: relative;
+
+	margin-bottom: 30px;
+
+}
+
+#accordion .submenu>li>a{
+
+	display: block;
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100px;
+
+}
+
+/**/
+
+.content_more_mitos{
+
+	padding-left: 120px;
+
+	    min-height: 45px;
+
+}
+
+.content_more_mitos a{
+
+	color: #000;
+
+	font-weight: 600;
+
+	text-decoration: none;
+
+	-webkit-transition: all ease 500ms;
+
+	-o-transition: all ease 500ms;
+
+	transition: all ease 500ms;
+
+}
+
+.content_more_mitos a:hover{
+
+	color: #f4811f;
+
+	-webkit-transition: all ease 500ms;
+
+	-o-transition: all ease 500ms;
+
+	transition: all ease 500ms;
+
+}
+
+/**/
+
+.box_contenido_receta .box_head img{
+
+	border-radius: 20px;
+
+}
+
+.box_contenido_receta .box_body{
+
+	padding: 30px 20px;
+
+}
+
+/**/
+
+@media(max-width: 1599px){
+
+	.content_more_mitos {
+
+	    min-height: 65px;
+
+	}
+
+}
+
+@media(max-width: 1199px){
+
+	.content_more_mitos a {
+
+	    font-size: 13px;
+
+	}
+
+}
+
+@media(max-width: 991px){
+
+	.box_lateral_mitos{
+
+		margin-top: 30px;
+
+	}
+
+	.box_contenido_mitos .box_head:before{
+
+		display: none;
+
+	}
+
+	.box_contenido_mitos .box_head .caption_mito{
+
+		position: relative;
+
+	}
+
+	.box_contenido_mitos .box_head .caption_mito p {
+
+	    color: #848484;
+
+	}
+
+}
+
+/**************************** END SECTION RECETA DESCRIPCION *******************************/

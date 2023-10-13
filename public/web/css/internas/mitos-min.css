@@ -1,0 +1,103 @@
+/***************************** SECTION TITLE INTERNA **************************/
+.sect_title_interna{
+	background-image: url(../../../../public/img/fondo/mitos-title-interna.jpg);
+	background-position: center 44%;
+	background-size: cover;
+	padding: 100px 0;
+	position: relative;
+}
+.sect_title_interna:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #61271d;
+	opacity: .5;
+}
+/**/
+@media(max-width: 991px){
+    .sect_title_interna {
+        padding: 60px 0;
+        padding-bottom: 80px;
+    }
+}
+@media(max-width: 767px){
+    .sect_title_interna.sect_title_general h2 {
+        font-size: 30px;
+    }
+    .sect_title_interna {
+        padding: 40px 0;
+        padding-bottom: 70px;
+    }
+}
+/***************************** END SECTION TITLE INTERNA **************************/
+
+/********************************* SECTION MITOS **********************************/
+.sect_mitos {
+	padding: 50px 0;
+	padding-bottom: 100px;
+}
+.box_mito{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+}
+.box_mito .box_item{
+	display: block;
+    width: 21%;
+    margin: 0 auto;
+    border: 1px dashed #d6d6d6;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 40px;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box_mito .box_item:hover{
+    color: #f4811f;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.box_mito .box_item .box_head .icon_mito{
+	width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background: #61271d;
+    text-align: center;
+    line-height: 120px;
+    font-size: 60px;
+    color: #f4811f;
+    border-radius: 40px;
+    position: relative;
+}
+.box_mito .box_item .box_body .content_text{
+	margin-top: 20px;
+}
+.box_mito .box_item .box_body .content_text h5{
+	text-align: center;
+	font-weight: 800;
+}
+.box_mito .box_item .box_body .content_text p{
+	text-align: center;
+}
+/**/
+@media(max-width: 991px){
+	.box_mito .box_item{
+		width: 44%;
+	}
+}
+@media(max-width: 500px){
+	.box_mito .box_item{
+		width: 100%;
+	}
+}
+/******************************* END SECTION MITOS ********************************/
